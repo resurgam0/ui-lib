@@ -1,19 +1,17 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <Demo></Demo>
-    <Card imgSrc="demo.jpg" summary="简直很多哈哈哈喀什哈哈哈"></Card>
+    <m-card imgSrc="demo.jpg" summary="简直很多哈哈哈喀什哈哈哈"></m-card>
     <br>
-    <Card imgSrc="demo2.jpg" summary="简直33哈喀什哈哈哈">
+    <m-card imgSrc="demo2.jpg" summary="简直33哈喀什哈哈哈">
       <template v-slot:footer>
         <div class="footer">
           <div class="level">中级黄金价</div>
           <div class="price">￥12.00</div>
         </div>
       </template>
-    </Card>
+    </m-card>
     <br>
-    <Card imgSrc="demo3.jpg" :width="370" :imgHeight="90">
+    <m-card imgSrc="demo3.jpg" :width="370" :imgHeight="90">
       本路线旨在帮助想快速掌握应用的工程师，全方位多角度得带你升级
       <template v-slot:footer>
         <div class="footer-spring">
@@ -21,7 +19,7 @@
           <div class="level">4步骤</div>
         </div>
       </template>
-    </Card>
+    </m-card>
   </div>
 </template>
 
